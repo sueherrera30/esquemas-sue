@@ -9,32 +9,50 @@ h1{
   color:#A4286E;
 }
 section {
-  margin-left: 600px;
+  margin-left: 550px;
   margin-top: 20px;
 
 }
 .cuadroContenedor{
   position: relative;
   width: 200px;
-  height: 200px;
-  margin-top: 20px;
-}
+  height:200px;
+  margin: 20px;
+  
 
+}
 .cuadroEnmedio{
-  position: relative;
-  left: 30px;
-  top: 10px;
-  width: 80px;
-  height: 80px;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 50px;
+  top: 50px;
 }
 
 .chiquis{
   position: absolute;
-  width:200 px;
-  height:200 px;
+  width:50px;
+  height:50px;
 }
 
-div{
-  border:solid  black;
-  background-color: pink;
+.rojo{
+  background-color: #FF3329;
+}
+.morado{
+background-color:#4E0E7F;
+}
+.amarillo{
+  background-color: #FFEB22;
+}
+
+.azul{
+  background-color: #07349D;
+}
+.verde{
+background-color:#009D00;
+}
+.negrito{
+  background-color: #000000;
+  margin-left: -50px;
+  margin-top: -50px;
 }
